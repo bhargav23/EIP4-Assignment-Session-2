@@ -88,3 +88,4 @@ Epoch 00020: LearningRateScheduler setting learning rate to 0.000424869.
 
 ## Strategy
 
+* To reduce the number of parameters, I updated the second layer of convolution from 32 to 16. Then the number of parameters reduced to less than 15000, I, e. 14020.
