@@ -90,7 +90,8 @@ Epoch 00020: LearningRateScheduler setting learning rate to 0.000424869.
 
 * To reduce the number of parameters, I updated the second layer of convolution from 32 to 16. Then the number of parameters reduced to less than 15000, I, e. 14020.
 * To improve the accuracy, I added the Batch normalization and drop out after every convolution layer but not in the last layer.
-* The drop out rate is set to 15%.
+* The drop out rate is set to 15%. The dropout is used to regulralize the neural networks and prevents the overfitting.
+* After checking several models, accuracy is increased to 99.41.
 
 
 
