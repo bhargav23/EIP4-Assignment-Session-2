@@ -83,6 +83,8 @@ Epoch 00020: LearningRateScheduler setting learning rate to 0.000424869.
 60000/60000 [==============================] - 10s 175us/step - loss: 0.0234 - acc: 0.9924 - val_loss: 0.0160 - val_acc: 0.9941
 <keras.callbacks.History at 0x7f7c72971438>
 
-## [0.016032473114388993, 0.9941]
+## model.evaluate (on test data)
+[0.016032473114388993, 0.9941]
 
-Stratagy 
+## Strategy
+
